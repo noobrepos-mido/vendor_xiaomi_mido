@@ -45,6 +45,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mido/proprietary/lib/libqti-perfd-client_system.so:system/lib/libqti-perfd-client_system.so \
     vendor/xiaomi/mido/proprietary/lib/libqti_performance.so:system/lib/libqti_performance.so \
     vendor/xiaomi/mido/proprietary/lib/librcc.so:system/lib/librcc.so \
+    vendor/xiaomi/mido/proprietary/lib/vendor.display.color@1.1.so:system/lib/vendor.display.color@1.1.so \
     vendor/xiaomi/mido/proprietary/lib/vendor.display.postproc@1.0.so:system/lib/vendor.display.postproc@1.0.so \
     vendor/xiaomi/mido/proprietary/lib/vendor.qti.hardware.data.latency@1.0.so:system/lib/vendor.qti.hardware.data.latency@1.0.so \
     vendor/xiaomi/mido/proprietary/lib/vendor.qti.hardware.iop@1.0.so:system/lib/vendor.qti.hardware.iop@1.0.so \
@@ -67,6 +68,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mido/proprietary/lib64/libqti-perfd-client_system.so:system/lib64/libqti-perfd-client_system.so \
     vendor/xiaomi/mido/proprietary/lib64/libqti_performance.so:system/lib64/libqti_performance.so \
     vendor/xiaomi/mido/proprietary/lib64/librcc.so:system/lib64/librcc.so \
+    vendor/xiaomi/mido/proprietary/lib64/vendor.display.color@1.1.so:system/lib64/vendor.display.color@1.1.so \
     vendor/xiaomi/mido/proprietary/lib64/vendor.display.postproc@1.0.so:system/lib64/vendor.display.postproc@1.0.so \
     vendor/xiaomi/mido/proprietary/lib64/vendor.qti.hardware.data.latency@1.0.so:system/lib64/vendor.qti.hardware.data.latency@1.0.so \
     vendor/xiaomi/mido/proprietary/lib64/vendor.qti.hardware.iop@1.0.so:system/lib64/vendor.qti.hardware.iop@1.0.so \
@@ -901,6 +903,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mido/proprietary/vendor/lib/soundfx/libqcreverb.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libqcreverb.so \
     vendor/xiaomi/mido/proprietary/vendor/lib/soundfx/libqcvirt.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libqcvirt.so \
     vendor/xiaomi/mido/proprietary/vendor/lib/vendor.display.color@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.color@1.0_vendor.so \
+    vendor/xiaomi/mido/proprietary/vendor/lib/vendor.display.color@1.1_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.color@1.1_vendor.so \
     vendor/xiaomi/mido/proprietary/vendor/lib/vendor.display.postproc@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.postproc@1.0_vendor.so \
     vendor/xiaomi/mido/proprietary/vendor/lib/vendor.qti.hardware.data.latency@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.data.latency@1.0_vendor.so \
     vendor/xiaomi/mido/proprietary/vendor/lib/vendor.qti.hardware.iop@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.iop@1.0_vendor.so \
@@ -1107,6 +1110,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mido/proprietary/vendor/lib64/soundfx/libqcreverb.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libqcreverb.so \
     vendor/xiaomi/mido/proprietary/vendor/lib64/soundfx/libqcvirt.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libqcvirt.so \
     vendor/xiaomi/mido/proprietary/vendor/lib64/vendor.display.color@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.color@1.0_vendor.so \
+    vendor/xiaomi/mido/proprietary/vendor/lib64/vendor.display.color@1.1_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.color@1.1_vendor.so \
     vendor/xiaomi/mido/proprietary/vendor/lib64/vendor.display.postproc@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.postproc@1.0_vendor.so \
     vendor/xiaomi/mido/proprietary/vendor/lib64/vendor.qti.gnss@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.gnss@1.0_vendor.so \
     vendor/xiaomi/mido/proprietary/vendor/lib64/vendor.qti.hardware.alarm@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.alarm@1.0.so \
