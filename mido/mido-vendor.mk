@@ -1151,7 +1151,6 @@ PRODUCT_PACKAGES += \
     libgpustats \
     libsdm-disp-vndapis \
     libthermalclient \
-    libtime_genoff \
     QtiTelephonyService \
     ims \
     QPerformance \
